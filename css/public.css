@@ -40,6 +40,7 @@ body.sub .nav { position: fixed; }
 .structure-section .calc-intro > div:first-child { max-width: 850px; margin-bottom: 28px; }
 .structure-media { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: stretch; }
 .site-photo { margin: 0; position: relative; min-height: 380px; overflow: hidden; border-radius: 16px; background: #17332d; }
+.site-photo > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .calc-intro .site-photo img { height: 100%; width: 100%; object-fit: cover; border: 0; border-radius: 0; }
 .site-photo figcaption { position: absolute; bottom: 0; left: 0; right: 0; padding: 36px 24px 22px; background: linear-gradient(transparent,#102827ed); color: #fff; }
 .site-photo figcaption b { display: block; font-size: 20px; margin-bottom: 8px; }
