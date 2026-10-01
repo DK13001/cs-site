@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500" role="img" aria-labelledby="title desc">
+<title id="title">안전모, 보호 방패와 점검표로 표현한 안전관리</title>
+<desc id="desc">중앙의 안전모와 방패는 현장 보호를, 세 개의 체크 표시는 위험 확인과 기준 검토, 예방 계획을 상징한다.</desc>
+<defs><linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e2eeea"/></linearGradient></defs>
+<circle cx="305" cy="246" r="197" fill="#e5eee9"/>
+<circle cx="305" cy="246" r="230" fill="none" stroke="#d8e4dd"/>
+<path d="M91 132H151M116 107V157M477 392H521M499 370V414" stroke="#b7cdc2" stroke-width="2"/>
+<path d="M302 78C345 111 395 124 438 128V254C438 336 380 394 302 428C224 394 166 336 166 254V128C209 124 259 111 302 78Z" fill="url(#shield)" stroke="#477569" stroke-width="2.5"/>
+<path d="M302 101C340 127 381 139 415 145V254C415 320 369 370 302 403C235 370 189 320 189 254V145C223 139 264 127 302 101Z" fill="none" stroke="#c3d8cd" stroke-width="1.5"/>
+<g stroke="#735d35" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M226 226V216C226 173 258 139 302 139C346 139 378 173 378 216V226" fill="#e2c996"/>
+<path d="M284 216V141C284 133 292 127 302 127C312 127 320 133 320 141V216" fill="#f2dfb8"/>
+<path d="M247 170V207M357 170V207" fill="none"/>
+<path d="M221 222H383C389 222 392 226 390 232L386 244H218L214 232C212 226 215 222 221 222Z" fill="#f2dfb8"/>
+</g>
+<g fill="none" stroke="#2b6956" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M265 305L290 329L340 278"/></g>
+<rect x="394" y="255" width="151" height="145" rx="16" fill="#fff" stroke="#c9d9d0"/>
+<rect x="435" y="245" width="70" height="20" rx="7" fill="#d2e1d8" stroke="#98b4a4"/>
+<g fill="#e3eee8"><circle cx="420" cy="292" r="10"/><circle cx="420" cy="331" r="10"/><circle cx="420" cy="370" r="10"/></g>
+<g fill="none" stroke="#377562" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m416 292 3 3 5-6M416 331l3 3 5-6M416 370l3 3 5-6"/></g>
+<g stroke="#91a79b" stroke-width="3" stroke-linecap="round"><path d="M442 289H519M442 298H491M442 328H515M442 337H488M442 367H516M442 376H496"/></g>
+<circle cx="130" cy="326" r="36" fill="#fff" stroke="#c5d8cd"/>
+<path d="M130 306L148 315V329C148 340 140 347 130 351C120 347 112 340 112 329V315Z" fill="#e8f0ea" stroke="#699383" stroke-width="1.5"/>
+<path d="m121 328 6 6 12-13" fill="none" stroke="#377562" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
