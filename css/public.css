@@ -1,6 +1,6 @@
 /* 홍보사이트 전용 — site.css 위에 덧씀 */
-.nav { background: transparent; border-bottom: 1px solid rgba(255,255,255,.14); position: absolute; left: 0; right: 0; top: 0; backdrop-filter: none; }
-.nav .brand, .nav .menu > li > a { color: #fff; }
+.nav { background: #fff; border-bottom: 1px solid #e1e7ec; position: fixed; left: 0; right: 0; top: 0; backdrop-filter: none; }
+.nav .brand, .nav .menu > li > a { color: #193448; }
 .nav.solid, .nav:hover, .nav.open { background: #fff; position: fixed; border-color: var(--line); }
 .nav.solid .brand, .nav:hover .brand, .nav.open .brand, .nav.solid .menu > li > a, .nav:hover .menu > li > a, .nav.open .menu > li > a { color: var(--ink); }
 body.sub .nav { position: fixed; }
@@ -20,13 +20,19 @@ body.sub .nav { position: fixed; }
 .burger span::before { top: -7px; } .burger span::after { top: 7px; }
 
 /* 메인 히어로 */
-.hero-main { position: relative; min-height: 100vh; min-height: 100svh; display: grid; align-items: center; color: #fff;
-  background: #0f2f52 center / cover no-repeat; }
-.hero-main::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,31,56,.88) 0%, rgba(10,31,56,.35) 70%); }
-.hero-main .wrap { position: relative; padding-top: 90px; }
+.hero-main { position: relative; min-height: 700px; display: grid; align-items: center; color: #193448;
+  background: #f3f6f8 !important; border-bottom: 1px solid #dfe6ec; }
+.hero-main::before { content: ""; position: absolute; right: 0; top: 68px; bottom: 0; width: 28%; background: #e9eff3; border-left: 1px solid #dce5ec; }
+.hero-main .wrap { position: relative; padding-top: 105px; padding-bottom: 110px; }
 .hero-main h1 { font-size: 52px; line-height: 1.2; letter-spacing: -.035em; margin: 16px 0 20px; font-weight: 800; }
-.hero-main p { font-size: 18px; color: #c9d6e4; max-width: 600px; margin: 0 0 34px; }
-.hero-main .scroll { position: absolute; left: 50%; bottom: 28px; transform: translateX(-50%); font-size: 12px; letter-spacing: .2em; color: #9fb4ca; }
+.hero-main p { font-size: 18px; color: #52677b; max-width: 650px; margin: 0 0 34px; }
+.hero-main .scroll { display: none; }
+.hero-main .eyebrow { color: #496b84; }
+.hero-main .btn-amber { background: #193f5a; border-color: #193f5a; color: #fff; }
+.hero-main .btn-ghost { color: #193f5a; border-color: #aabcc9; background: transparent; }
+.structure-figure { margin: 0; width: 100%; }
+.calc-intro .structure-figure img { display: block; width: 100%; height: auto; border: 1px solid #e1e7ec; border-radius: 16px; }
+.sec-soft { background: #f5f7f9; }
 
 /* 3대 업무 바로가기 */
 .quick { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: -80px; position: relative; z-index: 2; box-shadow: var(--shadow); border-radius: var(--radius); overflow: hidden; }
@@ -122,6 +128,8 @@ footer .finfo { margin-top: 10px; line-height: 1.8; }
   .quick, .links3, .contact-cards { grid-template-columns: 1fr; }
   .quick { margin-top: -40px; }
   .hero-main h1 { font-size: 34px; }
+  .hero-main { min-height: 620px; }
+  .hero-main::before { width: 12%; }
   .subvisual { height: 260px; } .subvisual h1 { font-size: 28px; }
   .flow > div::after { display: none !important; }
   .timeline { margin-left: 60px; }

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="820" viewBox="0 0 1000 820" role="img" aria-labelledby="title desc">
+<title id="title">시스템 동바리 구성 개념도</title>
+<desc id="desc">정면에서 본 시스템 동바리. 콘크리트 아래에 합판, 장선, 멍에, 상부 조절잭, 수직재가 순서대로 배치되고 수평재와 가새재가 연결된다. 하부 조절잭과 받침판은 받침목 위에 놓인다. 특정 현장의 설치 상세나 설계 치수를 나타내지 않는다.</desc>
+<defs>
+<pattern id="concrete" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#e3e8ed"/><circle cx="5" cy="7" r="1" fill="#acb8c4"/><path d="m15 15 3 2" stroke="#acb8c4"/></pattern>
+<g id="post">
+<rect x="-34" y="638" width="68" height="14" rx="2" fill="#c1a47c"/>
+<rect x="-24" y="630" width="48" height="8" fill="#52677b"/>
+<path d="M0 575V630M0 217V256" stroke="#52677b" stroke-width="9"/>
+<path d="M-10 592H10M-10 605H10M-10 236H10" stroke="#52677b" stroke-width="4"/>
+<path d="M0 256V575" stroke="#29475f" stroke-width="13"/>
+<path d="M-25 200V218H25V200" stroke="#52677b" stroke-width="7" fill="none"/>
+<g fill="#527a96"><rect x="-15" y="296" width="30" height="8" rx="3"/><rect x="-15" y="426" width="30" height="8" rx="3"/><rect x="-15" y="556" width="30" height="8" rx="3"/></g>
+</g>
+</defs>
+<rect width="1000" height="820" rx="24" fill="#f7f9fb"/>
+<g font-family="Malgun Gothic, sans-serif">
+<text x="54" y="64" font-size="15" fill="#557187" letter-spacing="2">TEMPORARY WORKS / SYSTEM SHORING</text>
+<text x="54" y="108" font-size="30" font-weight="700" fill="#193448">시스템 동바리 구성</text>
+<rect x="92" y="141" width="576" height="38" fill="url(#concrete)" stroke="#8c9ba9"/>
+<rect x="92" y="179" width="576" height="8" fill="#bc9a6d"/>
+<g fill="#b89c75" stroke="#8d7657"><rect x="115" y="187" width="32" height="16"/><rect x="185" y="187" width="32" height="16"/><rect x="255" y="187" width="32" height="16"/><rect x="325" y="187" width="32" height="16"/><rect x="395" y="187" width="32" height="16"/><rect x="465" y="187" width="32" height="16"/><rect x="535" y="187" width="32" height="16"/><rect x="605" y="187" width="32" height="16"/></g>
+<rect x="104" y="203" width="550" height="15" fill="#476a84"/>
+<path d="M115 653H647" stroke="#cbd4dc" stroke-width="2"/>
+<g stroke="#527a96" stroke-width="6" fill="none"><path d="M140 300H620M140 430H620M140 560H620"/></g>
+<g stroke="#4a8a8c" stroke-width="5" fill="none"><path d="M140 560L300 430L140 300M300 560L460 430L300 300M460 560L620 430L460 300"/></g>
+<use href="#post" x="140"/><use href="#post" x="300"/><use href="#post" x="460"/><use href="#post" x="620"/>
+<g stroke="#b6c2cc" stroke-width="1.5" fill="none"><path d="M666 160H704"/><path d="M649 183H692V206H704"/><path d="M623 195H680V244H704"/><path d="M651 210H669V282H704"/><path d="M631 236H658V328H704"/><path d="M622 378H680V387H704"/><path d="M510 430H670V444H704"/><path d="M552 485H685V504H704"/><path d="M631 602H688V574H704"/><path d="M639 645H704"/></g>
+<g font-size="19" fill="#29475f"><text x="720" y="167">콘크리트</text><text x="720" y="213">거푸집 합판</text><text x="720" y="251">장선 (단면)</text><text x="720" y="289">멍에</text><text x="720" y="335">상부 조절잭</text><text x="720" y="394">수직재</text><text x="720" y="451">수평재</text><text x="720" y="511">가새재</text><text x="720" y="581">하부 조절잭·받침판</text><text x="720" y="652">받침목</text></g>
+<path d="M54 700H946" stroke="#dce3e9"/>
+<text x="54" y="738" font-size="17" fill="#52677b">하중 전달  ·  거푸집 → 장선 → 멍에 → 수직재 → 받침부</text>
+<text x="54" y="777" font-size="14" fill="#748696">구성 설명을 위한 정면 개념도입니다. 현장별 배치·연결·기초 조건은 구조검토 및 설치도에 따릅니다.</text>
+</g>
+</svg>
