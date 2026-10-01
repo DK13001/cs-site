@@ -6,9 +6,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid #517e68; outline-offs
 .nav.solid, .nav:hover, .nav.open { background: #fff; position: fixed; border-color: var(--line); }
 .nav.solid .brand, .nav:hover .brand, .nav.open .brand, .nav.solid .menu > li > a, .nav:hover .menu > li > a, .nav.open .menu > li > a { color: var(--ink); }
 body.sub .nav { position: fixed; }
-.menu { list-style: none; margin: 0 0 0 auto; padding: 0; gap: 0; height: 68px; display: flex; }
-.menu > li { position: relative; width: 132px; text-align: center; }
-.menu > li > a { display: block; line-height: 68px; font-weight: 600; font-size: 15.5px; }
+.menu { list-style: none; margin: 0 0 0 auto; padding: 0; gap: 0; height: 68px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); flex: 1; max-width: 920px; }
+.menu > li { position: relative; width: auto; min-width: 0; text-align: center; }
+.menu > li > a { display: block; line-height: 68px; padding: 0 6px; font-weight: 600; font-size: 14.5px; white-space: nowrap; }
 .menu > li > a.on { color: var(--amber) !important; }
 .menu ul { list-style: none; padding: 14px 0 18px; margin: 0; display: none; }
 .nav:hover .menu ul { display: block; }
@@ -134,7 +134,7 @@ footer .finfo { margin-top: 10px; line-height: 1.8; }
 .admin-entry:hover, .admin-entry:focus-visible { background: #285343; color: #fff; border-color: #b2cabb; }
 
 @media (max-width: 1080px) {
-  .menu { display: none; position: absolute; top: 68px; left: 0; right: 0; height: auto; background: #fff; flex-direction: column; padding: 8px 24px 20px; border-bottom: 1px solid var(--line); }
+  .menu { display: none; position: absolute; top: 68px; left: 0; right: 0; height: auto; max-width: none; background: #fff; flex-direction: column; padding: 8px 24px 20px; border-bottom: 1px solid var(--line); }
   .nav.open .menu { display: flex; }
   .menu > li { width: auto; text-align: left; border-bottom: 1px solid var(--line); }
   .menu > li > a { line-height: 48px; color: var(--ink) !important; }
