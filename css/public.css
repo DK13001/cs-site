@@ -53,15 +53,7 @@ body.sub .nav { position: fixed; }
 .calc-intro .structure-figure img { display: block; width: 100%; height: auto; border: 1px solid #e1e7ec; border-radius: 16px; }
 .sec-soft { background: #f1f4f1; }
 
-/* 3대 업무 바로가기 */
-.quick { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 0; position: relative; z-index: 2; box-shadow: none; border-radius: 0; overflow: hidden; border-bottom: 1px solid var(--line); }
-.quick a { background: #fff; padding: 34px 32px 30px; border-right: 1px solid var(--line); transition: .2s; display: flex; flex-direction: column; gap: 10px; }
-.quick a:last-child { border-right: 0; }
-.quick a:hover { background: var(--navy); color: #fff; }
-.quick a:hover p { color: #c9d6e4; }
-.quick b { font-size: 20px; letter-spacing: -.02em; }
-.quick p { margin: 0; color: var(--muted); font-size: 14.5px; flex: 1; }
-.quick span { font-size: 13px; font-weight: 700; color: var(--amber); }
+#services { scroll-margin-top: 88px; }
 
 .links3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .links3 a { position: relative; border-radius: var(--radius); overflow: hidden; min-height: 200px; padding: 30px; color: #fff; background: var(--navy) center / cover; display: flex; flex-direction: column; justify-content: flex-end; }
@@ -147,8 +139,7 @@ footer .finfo { margin-top: 10px; line-height: 1.8; }
   .nav:hover::after { display: none; }
   .burger { display: block; }
   .nav .cta-tel { display: none; }
-  .quick, .links3, .contact-cards { grid-template-columns: 1fr; }
-  .quick { margin-top: 0; }
+  .links3, .contact-cards { grid-template-columns: 1fr; }
   .hero-main h1 { font-size: 34px; }
   .hero-main { min-height: auto; }
   .hero-main > .wrap { padding-top: 105px; padding-bottom: 130px; }
