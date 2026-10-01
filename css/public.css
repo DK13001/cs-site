@@ -1,5 +1,6 @@
 /* 홍보사이트 전용 — site.css 위에 덧씀 */
-:root { --navy: #183b35; --blue: #2e6b5d; --amber: #b18c4e; --bg-soft: #f1f4f1; }
+:root { --navy: #183b35; --navy-2: #244d40; --blue: #2e6b5d; --amber: #94713a; --bg-soft: #f1f4f1; }
+a:focus-visible, button:focus-visible { outline: 3px solid #517e68; outline-offset: 4px; }
 .nav { background: #fff; border-bottom: 1px solid #e1e7ec; position: fixed; left: 0; right: 0; top: 0; backdrop-filter: none; }
 .nav .brand, .nav .menu > li > a { color: #193448; }
 .nav.solid, .nav:hover, .nav.open { background: #fff; position: fixed; border-color: var(--line); }
@@ -24,7 +25,7 @@ body.sub .nav { position: fixed; }
 .hero-main { position: relative; min-height: 690px; display: grid; align-items: center; color: #213b32;
   background: #f5f7f2; overflow: hidden; }
 .hero-main::before { content: ""; position: absolute; width: 700px; height: 700px; right: -210px; top: -100px; background: #e9efe6; border-radius: 50%; }
-.hero-main > .wrap { position: relative; width: 100%; padding-top: 115px; padding-bottom: 105px; }
+.hero-main > .wrap { position: relative; width: 100%; padding-top: 115px; padding-bottom: 145px; }
 .hero-grid { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 30px; }
 .hero-main h1 { font-size: clamp(34px,3.5vw,48px); line-height: 1.28; letter-spacing: -.035em; margin: 16px 0 20px; font-weight: 800; }
 .hero-main p { font-size: 16px; color: #5c7065; max-width: 610px; margin: 0 0 30px; line-height: 1.85; }
@@ -38,7 +39,9 @@ body.sub .nav { position: fixed; }
 .safety-tags { display: flex; justify-content: center; gap: 10px; margin-top: -18px; }
 .safety-tags span { padding: 7px 14px; border: 1px solid #c8d7cc; background: #ffffffb3; border-radius: 999px; color: #496c58; font-size: 12px; }
 .hero-foot { position: absolute; bottom: 0; width: 100%; border-top: 1px solid #dce5dc; background: #edf2eb; }
-.hero-foot .wrap { display: flex; justify-content: space-between; gap: 16px; padding: 24px; color: #55715d; font-size: 14px; }
+.hero-foot .wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 20px 24px; }
+.hero-foot span { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 58px; padding: 14px 18px; border: 1px solid #b9cdbf; border-radius: 10px; background: #fff; color: #234d38; font-size: 17px; font-weight: 700; line-height: 1.45; text-align: center; }
+.hero-foot span::before { content: "✓"; flex: 0 0 24px; width: 24px; height: 24px; border-radius: 50%; background: #285a43; color: #fff; display: grid; place-items: center; font-size: 14px; }
 .structure-section { background: #eaf0ed; }
 .structure-section .calc-intro { display: block; }
 .structure-section .calc-intro > div:first-child { max-width: 850px; margin-bottom: 28px; }
@@ -58,7 +61,7 @@ body.sub .nav { position: fixed; }
 .links3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .links3 a { position: relative; border-radius: var(--radius); overflow: hidden; min-height: 200px; padding: 30px; color: #fff; background: var(--navy) center / cover; display: flex; flex-direction: column; justify-content: flex-end; }
 .links3 a::before { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10,31,56,.85), rgba(10,31,56,.2)); transition: .2s; }
-.links3 a:hover::before { background: linear-gradient(0deg, rgba(29,100,176,.9), rgba(29,100,176,.4)); }
+.links3 a:hover::before { background: linear-gradient(0deg, rgba(36,77,64,.95), rgba(36,77,64,.6)); }
 .links3 a * { position: relative; }
 .links3 b { font-size: 22px; }
 .links3 p { margin: 6px 0 0; color: #dbe5ef; font-size: 14px; }
@@ -142,11 +145,12 @@ footer .finfo { margin-top: 10px; line-height: 1.8; }
   .links3, .contact-cards { grid-template-columns: 1fr; }
   .hero-main h1 { font-size: 34px; }
   .hero-main { min-height: auto; }
-  .hero-main > .wrap { padding-top: 105px; padding-bottom: 130px; }
+  .hero-main > .wrap { padding-top: 105px; padding-bottom: 255px; }
   .hero-grid { grid-template-columns: 1fr; gap: 12px; }
   .hero-main::before { width: 480px; height: 480px; top: 310px; right: -160px; }
   .safety-visual { max-width: 400px; width: 100%; margin: 0 auto; }
-  .hero-foot .wrap { flex-direction: column; gap: 6px; padding: 16px 24px; font-size: 12px; }
+  .hero-foot .wrap { grid-template-columns: 1fr; gap: 8px; padding: 16px 24px; }
+  .hero-foot span { min-height: 50px; padding: 12px 16px; font-size: 16px; }
   .subvisual { background-size: 200px !important; background-position: right -80px center !important; }
   .structure-media { grid-template-columns: 1fr; }
   .site-photo { min-height: 280px; }
