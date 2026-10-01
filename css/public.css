@@ -134,6 +134,9 @@ table.tbl td.l { text-align: left; }
 .topbtn { position: fixed; right: 22px; bottom: 22px; width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; box-shadow: var(--shadow); z-index: 40; }
 footer .fmenu a { color: #c9d6e4; margin-right: 18px; }
 footer .finfo { margin-top: 10px; line-height: 1.8; }
+.footer-links { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.admin-entry { display: inline-flex; align-items: center; gap: 14px; border: 1px solid #688379; border-radius: 6px; padding: 9px 15px; color: #dce9e3; font-size: 13px; }
+.admin-entry:hover, .admin-entry:focus-visible { background: #285343; color: #fff; border-color: #b2cabb; }
 
 @media (max-width: 1080px) {
   .menu { display: none; position: absolute; top: 68px; left: 0; right: 0; height: auto; background: #fff; flex-direction: column; padding: 8px 24px 20px; border-bottom: 1px solid var(--line); }
